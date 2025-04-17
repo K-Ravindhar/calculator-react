@@ -1,8 +1,63 @@
-# React + Vite
+# 🧮 Calculator React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calculator built with **React.js** that handles basic arithmetic operations. This project demonstrates how to manage user inputs, perform evaluations, and handle UI interactions in a React application.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🧹 Clear screen (AC)
+- ⌫ Delete individual digits (DEL)
+- ✅ Live expression evaluation
+- 🔢 Supports decimal numbers
+
+## 📸 Screenshot
+
+![initial screen](image.png)
+
+![expression](image-1.png)
+
+![result](image-2.png)
+
+
+## 🛠️ Built With
+
+- React.js (Functional Components + Hooks)
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Basic calculator logic using `eval()` or equivalent
+
+
+## ▶️ Getting Started
+
+Follow the steps below to run the calculator locally:
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/K-Ravindhar/calculator-react.git
+cd calculator-react
+```
+
+2. Install dependencies
+   
+```bash
+npm install
+```
+
+3. Run project
+
+```bash
+npm run dev
+```
+
+## Link to review
+
+https://calculator-react-sigma-umber.vercel.app/
+
+
+
+
+
